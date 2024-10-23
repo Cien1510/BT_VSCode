@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(/img/background_toigian_01.jpg);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: block;
+    background-color: rgb(100, 120, 119);
+    width:400px;
+    border-radius: 20px;
+}
+.box-header{
+    width:auto;
+    margin:auto;
+    text-align: center;
+}
+.box-header img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 0px;
+}
+.box-body{
+    margin: 10px 0px 20px 0px;
+}
+.box-footer{
+    text-align: center;
+}
