@@ -1,0 +1,107 @@
+/* Đặt lại các thuộc tính margin, padding mặc định cho tất cả các phần tử */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #555;
+    font-size: 1.8rem;
+}
+
+/* Định dạng phần header */
+header {
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+    background: #e78229;
+    color: #fff;
+}
+
+/* Định nghĩa phần khung chính */
+.khung-chinh {
+    max-width: 80rem;
+    background-color: #fff3e8;
+    margin: 2rem auto;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+/* Định dạng logo */
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.6rem;
+    color: #555;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+/* Định dạng tiêu đề chính */
+.tu-khoa {
+    font-size: 2.4rem;
+    color: #e78229;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Định dạng tiêu đề phụ */
+.tieu.de {
+    font-size: 1.6rem;
+    font-style: italic;/* In nghiêng để tạo điểm nhấn */
+    color: #888;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Định dạng cột văn bản và hình ảnh */
+.cot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;/* Chia thành 2 cột bằng nhau */
+    gap: 2rem; /* Khoảng cách giữa các cột */
+    align-items: start; /* Canh phần tử ở đầu cột */
+}
+
+/* Định dạng danh sách văn bản */
+.text {
+    list-style: none;
+    font-size: 1.6rem;
+    color: #555;
+}
+
+.text li {
+    margin-bottom: 1.5rem;/* Khoảng cách dưới cho mỗi mục trong danh sách */
+}
+
+/* Khung hình ảnh */
+.khung-hinh-anh {
+    width: 150px;
+    height: 150px;
+    background-color: #e78229;
+    border-radius: 0 80px 80px 80px;
+    margin: auto;
+}
+
+/* Định dạng nhóm nút */
+.nhom-nut {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    color: #555;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffc18b;
+    margin: 1rem;
+}
